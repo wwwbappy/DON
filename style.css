@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul li a{
+
+color:black;
+margin-bottom: 1rem;
+margin-right: 2.8rem;
+display: inline-block;
+
+padding: 6px;
+
+}
+
+
+
+.nav-item a:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 0%;
+    background-color: transparent;
+    transition: all 0.8s linear;
+}
+a.active,
+
+
+.nav-item a:hover{
+    border: 0.1rem solid rgba(0, 0, 0,0.3);
+    border-radius: 4px;
+}
+
+
+.active{
+    border-bottom: 2px solid red!important;
+}
+
+
+.nav-item a:hover:after{
+    border-bottom: 2px solid red;
+   height: 100%;
+}
+
+
+
+
+
+
+.nav-item a{
+    position: relative;
+}
+
+
+
+nav ul{
+   margin-right: -15px;
+  
+    position: relative;
+}
+
+.navbar{
+    border-bottom: 2px solid red;
+}
+
+
+
+
+
+.top img{
+    margin-bottom: 2rem;
+   
+}
+
+.bro .fw{
+    margin-top: 6rem;
+}
+
+.fw h2{
+    font-weight: bold;
+}
+
+.rv a{
+font-size: 12px;
+display: inline-block;
+
+}
+
+.rv{
+    border-bottom: 2px solid rgb(219, 209, 209);
+    margin-top: 3.8rem;
+    margin-bottom: 6rem
+    ;
+}
+
+.col-sm-3 .rv {
+    margin-top: 5.2rem;
+    margin-bottom: auto;
+}
+
+
+.col-sm-9{
+    border-right: 2px solid rgb(219, 209, 209);
+    margin-bottom: 8rem;
+}
+
+.dif{
+    color: cadetblue;
+}
+
+.rv button{
+   font-size: 12px;
+   margin-top: 20px;
+   border-radius: 30px;
+   margin-left: 7rem;
+   margin-bottom: 2rem;
+}
+
+
+.rv img{
+    margin-bottom: 2rem;
+}
+.bro{
+    margin-top: 3rem;
+}
+
+.second{
+    margin-top: 5rem;
+   
+    border-bottom: 2px solid rgb(219, 209, 209);
+}
+
+
+
+.jumbotron{
+    border-radius: 30px;
+}
+
+.jumbotron .btn{
+    border-radius: 30px;
+}
+
+.s{
+    border: 1px solid rgb(223, 212, 212);
+   margin-left: auto;
+ 
+    margin-top: 2rem;
+}
+
+.f4 button{
+    border-radius: 30px;
+    background: white;
+}
+
+
+.t{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.lol{
+    margin-left: 55px;
+    margin-right: auto;
+}
+
+.f4 h3{
+    margin-left: 20px;
+}
+
+.j{
+    color: rgb(116, 116, 187);
+}
+
+
+.second h2:hover{
+
+
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.f1 .col-sm-3{
+    margin-left: auto;
+    border: 2px solid rgb(253, 252, 251);
+    margin-top: 2rem;
+    ;
+  
+}
+
+
+.alada{
+    margin-bottom: 5rem;
+}
+
+.col-sm-6{
+
+    margin-top: 2rem;
+}
+
+.ek{
+    color: rgb(116, 116, 187);
+}
+
+.f1 h4{
+    color:  rgb(111, 111, 211) ;
+}
+
+
+.f2 h4{
+    color:  rgb(111, 111, 211) ;
+}
+
+
+.f3 h4{
+    color:  rgb(111, 111, 211) ;
+}
+
